@@ -32,7 +32,7 @@ service docker restart
 
 ```bash
 curl http://localhost:4243/version                       # for docker host
-curl http://44.208.72.178:4243/version                   # for jenkins host, replace ip with docker host ip
+curl http://192.168.64.2:4243/version                   # for jenkins host, replace ip with docker host ip
 ```
 
 
@@ -64,7 +64,7 @@ Under Manage Jenkins –> Manage Nodes and Clouds -> Configure cloulds ->  docke
 
 - Under **Docker host detail**:
 
-​			change Docker Host URI to `tcp://44.208.72.178:4243` change ip to docker host url
+​			change Docker Host URI to `tcp://192.168.64.2:4243` change ip to docker host url
 
 ​			Select **Enabled** and **Expose DOCKER_HOST**
 
