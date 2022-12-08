@@ -50,7 +50,7 @@ If we want to create own Docker image, we need:
 - All the required application dependencies for the build. For example, for a java maven project, you need to have git, java, and maven installed on the image.
 - Expose port 22.
 
-Here is a example of create ssh agent Docker image use [Dockerfile](https://github.com/bibinwilson/jenkins-docker-slave/blob/master/Dockerfile).
+Here is an example of create ssh agent Docker image use [Dockerfile](https://github.com/bibinwilson/jenkins-docker-slave/blob/master/Dockerfile).
 
 
 
