@@ -32,7 +32,7 @@ service docker restart
 
 ```bash
 curl http://localhost:4243/version                       # for docker host
-curl http://192.168.64.2:4243/version                   # for jenkins host, replace ip with docker host ip
+curl http://192.168.64.2:4243/version                    # for jenkins host, replace ip with docker host ip
 ```
 
 
